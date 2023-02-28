@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    width: 575px;
+height: 385px;
+
+background: #1B244A;
+}
+
+.container {
+    display: flex;
+}
+
+.team-name {
+width: 149px;
+height: 36px;
+margin: 68px 0 0 86px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+
+text-align: center;
+
+color: #EEEEEE;
+}
+.team-name-right {
+width: 149px;
+height: 36px;
+margin: 0 0 0 40px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+
+text-align: center;
+
+color: #EEEEEE;
+}
+
+.scoreboard {
+    display: flex;
+}
+
+.left-scoreboard {
+    width: 155px;
+height: 120px;
+margin: 21px 0 0 100px;
+
+background: #080001;
+border-radius: 5px;
+justify-content: center;
+}
+
+.right-scoreboard {
+    width: 155px;
+height: 120px;
+margin: 21px 0 0 100px;
+
+background: #080001;
+border-radius: 5px;
+}
+#left-number, #right-number {
+width: 117px;
+height: 120px;
+margin: auto;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+
+text-align: center;
+justify-content: center;
+
+color: #F94F6D;
+}
+.buttons{
+    display: flex;
+}
+.button-left{
+    margin: 26px 0 0 115px;
+}
+.button-right{
+    margin: 26px 0 0 135px;
+}
+.extra{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.winner-display{
+    background-color: white;
+}
